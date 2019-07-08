@@ -1,20 +1,28 @@
-# Classic Arcade Game Clone Project
+# Arcade Game Project
 
-## Table of Contents
+The Arcade Game is a simple game where you have to avoid colliding with the bugs as you make your way to the river!
 
-- [Instructions](#instructions)
-- [Contributing](#contributing)
+## Installation and Usage
 
-## Instructions
+1. Download or clone this project from this repository.
+    
+        git clone https://github.com/edwinang3/arcade-game.git
+    
+2. Once you have the project, open `index.html` to launch the game.
 
-Use this [rubric](https://review.udacity.com/#!/rubrics/15/view) for self-checking your submission.
 
-Make sure the functions you write are **object-oriented** - either class functions (like `Player` and `Enemy`) or class prototype functions such as `Enemy.prototype.checkCollisions`. Also make sure that the keyword `this` is used appropriately within your class and class prototype functions to refer to the object the function is called upon.
+## Arcade Game Rules
 
-Your **README.md** file should be updated with instructions on both how to 1. Run and 2. Play your arcade game.
+### Goal of the game
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+The goal of the game is to reach the river without colliding into the bugs.
 
-## Contributing
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+### How the game works
+
+In this game you have a player and bugs. The goal of the player is to reach the water, without colliding into any one of the bugs.
+
+* The player can move left, right, up and down
+* The bugs move at varying speeds on the paved block portion of the game board
+* Once a the player collides with a bug, the game is reset and the player moves back to the starting square
+* Once the player reaches the water, the game is won and the player moves back to the starting square
